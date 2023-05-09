@@ -1,0 +1,41 @@
+
+
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family:'Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode',Verdana, sans-serif;
+}
+h1{
+  text-align: center;
+  color: rgb(133, 94, 66);
+}
+p{
+  line-height: 25px;
+
+}
+.left{
+  left: 96%;
+}
+@media only screen and (max-width: 900px) {
+  .left{
+    left: 85%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .left{
+    left: 82%;
+  }
+}
+
+
+@media only screen and (max-width: 488px) {
+  h1{
+    font-size: 18px;
+  }
+  p{
+
+    font-size: 12px;
+    padding: 5px !important;
+  }
+}

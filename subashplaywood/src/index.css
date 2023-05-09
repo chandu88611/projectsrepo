@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+.animation{
+ 
+    padding: 10px;
+  }
+  .animation {
+   
+    animation: fadeIn 2s forwards;
+  }
+
+@keyframes fadeIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+
+    }
+  }
+
+
+
+  @media only screen and (max-width: 1300px) {
+    .animation{
+ 
+      grid-template-columns: 40% 40% !important;
+      }
+    
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .animation{
+     
+          grid-template-columns: 70%  !important;
+          }
+        
+        }
+
+        @media only screen and (max-width: 450px) {
+            .animation{
+         
+              grid-template-columns: 80%  !important;
+              }
+            
+            }

@@ -1,0 +1,141 @@
+.sIm{
+    width: 80vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* filter: blur(2px); */
+    background: url("https://thumbs.dreamstime.com/b/wooden-table-food-top-view-cafe-102532611.jpg");
+}
+.sIm1{
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* filter: blur(2px); */
+    background: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80");
+}
+.sIm2{
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    /* filter: blur(2px); */
+    background: url("https://media.gettyimages.com/id/639389404/photo/authentic-indian-food.jpg?s=612x612&w=gi&k=20&c=9XIDolJVsxbZ_0wjNKclKsGD1g6Gec1L42FLl3p_xMg=");
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.name>input{
+    width: 30vh;
+    height: 4vh;
+    
+}
+.contact{
+    width: 50vh;
+    padding: 1vh;
+    /* background-color: rgb(26, 48, 116); */
+    color:rgb(0, 0, 0);
+   box-shadow: 1px 1px 6px rgb(145, 141, 141);
+    margin: 1px;
+}
+.anchor{
+    text-decoration: none;
+    /* color:black */
+}
+.mainRow{
+    display: flex;
+     align-items: center; 
+     justify-content: center; 
+   
+    flex-direction: column;
+    color:rgb(6, 0, 66);
+    margin-top: 9vh;
+    border: 1px solid;
+    margin: 5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    font-size: 2.7vh;
+}
+.menu1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.backg{
+    width: 100vw;
+    height: 80vh;
+    background: url("https://thumbs.dreamstime.com/b/wooden-table-food-top-view-cafe-102532611.jpg");
+   
+}
+.img{
+    width: 50%;
+}
+.servicesImage{
+    width:100%;
+    height: 30vh;
+}
+.quicklinks{
+    text-decoration: none;
+}
+.servicesImage:hover {
+    /* transform: rotate(7deg); */
+    z-index: -1;
+    transform: scale(1.06);
+ 
+  }
+  .box{
+    background-color:'white';
+    box-shadow: -1px 1px 3px grey;
+    border-radius: 2%;
+  }
+  .box:hover{
+    transition: background-color 1.5s;
+    background-color: rgb(88, 92, 164);
+
+  }
+  .box>img{
+   border-radius: 50%;
+   width:60%;
+   height:20vh;
+    
+  }
+
+@media only screen and (max-width: 740px) {
+    /* #table1{
+         margin-top: 10vh;
+    } */
+    .servicesImage{
+        width:100%
+    }
+    .contact{
+        width: 40vh;
+    }
+    
+    .img{
+        width: 90%;
+    }
+    .mainRow{
+     margin-left: 0;
+    }
+    .row{
+        font-size: 1.5vh
+    }
+
+    .left{
+        left:80% ;
+    }
+}
